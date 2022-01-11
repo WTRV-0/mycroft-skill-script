@@ -35,7 +35,7 @@ class RunScript(MycroftSkill):
             localpath = '/opt/mycroft/skills/mycroft-skill-script.wtrv-0/scripts'
             extractvalue = message.data.get("script").replace("underscore", "_").replace(" ","")
 
-            os.system('cd ' + localpath + '; bash ' + extractvalue + '.sh')
+            os.system('cd ' + localpath + '; sh ' + extractvalue + '.sh')
         
             """
             Loop functionality
