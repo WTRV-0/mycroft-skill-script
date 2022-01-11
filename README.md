@@ -13,9 +13,14 @@ mycroft-msm remove https://github.com/WTRV-0/mycroft-skill-script
 ```
 
 ## About
-NOTE: This skill has only been tested on Linux Mint 20.3
+**Default script directory (put your .sh files here):**
+```bash
+/opt/mycroft/skills/mycroft-skill-script.wtrv-0/scripts
+```
 
-To change the default script directory, change the "localpath" variable in __init__.py . Scripts are run from localpath = '/opt/mycroft/skills/mycroft-skill-script.wtrv-0/scripts' by default.
+To change the default script directory, change the "localpath" variable in init.py to a folder of your choice
+
+NOTE: This skill has only been tested on Linux Mint 20.3
 
 ## Example Scripts
 There are three included example script files in the /scripts subfolder. They will create a file on ~/Desktop success_testfile.txt and add a line "File run with success!". These scripts are designed to show the functionality of converting user input to filenames.
