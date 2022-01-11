@@ -1,4 +1,4 @@
-# Mycroft Skill: Command
+# Mycroft Skill: Script
 
 A skill for [MycroftAI](https://mycroft.ai/) which allows running shell script files (.sh)
 
